@@ -9,7 +9,7 @@ def index(reqest):
         'dict': {'first': 1},
         'bool': True,
         }
-    return render(reqest, 'main/index.html', context)
+    return render(reqest, 'main/index.html')
 
 def about(reqest):
     return HttpResponse('About page')
